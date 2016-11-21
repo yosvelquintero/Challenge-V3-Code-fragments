@@ -1,7 +1,7 @@
 describe('sameXOAmount()', () => {
 	'use strict';
 
-	let sameXOAmount = require('../../code/same-xo-amount');
+	const sameXOAmount = require('../../code/same-xo-amount');
 
 	it('should return `true` if number of `X` and `O` is equal', () => {
 		expect(sameXOAmount('xXoO')).toEqual(true);
