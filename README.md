@@ -2,7 +2,7 @@
 
 ## Requirements
 
-NodeJS version 6
+NodeJS v6
 
 ## Install
 
