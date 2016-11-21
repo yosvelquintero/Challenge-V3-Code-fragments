@@ -7,6 +7,10 @@
   "devDependencies": {
     "jasmine": "^2.5.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yosvelquintero/Challenge-V3-Code-fragments.git"
+  },
   "scripts": {
     "test": "jasmine"
   },
