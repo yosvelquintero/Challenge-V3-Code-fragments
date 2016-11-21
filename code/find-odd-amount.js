@@ -8,13 +8,9 @@
 	 * @returns {Number} Number
 	 */
 	function findOddAmount(numbers) {
-		let obj = {};
+		let xor = (p, n) => p ^ n;		
 
-		return numbers.find((n) => {
-			obj[n] = obj[n] && obj[n]++ || 1;
-
-			return (1 === obj[n]) ? numbers.filter(num => n === num).length % 2 : false;
-		});
+		return numbers.reduce(xor);
 	}
 
 	module.exports = findOddAmount;
