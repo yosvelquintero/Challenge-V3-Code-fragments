@@ -90,6 +90,7 @@ describe('sameXOAmount()', () => {
 });
 ```
 
+<br><br>
 
 ### 1.3. Get the number which occurs an odd number of times
 

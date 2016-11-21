@@ -1,0 +1,22 @@
+{
+  "name": "challenge-v3-code-fragments",
+  "version": "1.0.0",
+  "description": "Code fragments that shows how to implement ES6 Modules and unit testing with Jasmine.",
+  "main": "fragments/code/find-odd-amount.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript6",
+    "unit",
+    "test",
+    "jasmine"
+  ],
+  "author": "Yosvel Quintero",
+  "license": "ISC"
+}
