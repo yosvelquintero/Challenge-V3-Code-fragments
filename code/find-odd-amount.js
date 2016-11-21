@@ -8,9 +8,7 @@
 	 * @returns {Number} Number
 	 */
 	function findOddAmount(numbers) {
-		let xor = (p, n) => p ^ n;		
-
-		return numbers.reduce(xor);
+		return numbers.reduce((p, n) => p ^ n);
 	}
 
 	module.exports = findOddAmount;
