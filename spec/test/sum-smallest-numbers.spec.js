@@ -1,6 +1,4 @@
-describe('sumSmallestNumbers()', () => {
-	'use strict';
-	
+describe('sumSmallestNumbers()', () => {	
 	const sumSmallestNumbers = require('../../code/sum-smallest-numbers');
 
 	it('should return the sum of the two smallest numbers', () => {
@@ -10,5 +8,4 @@ describe('sumSmallestNumbers()', () => {
 		expect(sumSmallestNumbers([5, 38, 15, 1, 1, -19, 9])).toEqual(-18);
 		expect(sumSmallestNumbers([1, 1, 1, 1])).toEqual(2);
 	});
-
 });
