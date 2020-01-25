@@ -5,8 +5,11 @@
  * @returns {Number} Sum result
  */
 function sumSmallestNumbers(numbers) {
-	(numbers.length > 2) && numbers.sort((a, b) => a - b);
-
+	if (numbers.length < 2) {
+		return
+	}
+	
+	numbers.sort((a, b) => a - b);
 	return numbers[0] + numbers[1];
 }
 
